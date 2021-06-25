@@ -58,13 +58,14 @@ namespace Snake.App.Business
 
         public void AdaugaSectiunileDeStartPentruSnake()
         {
+            int numarulSectiunei = 0;
             for (int i = 4; i >= 0; i--)
             {
                 if (i == 0)
                 {
                     var sectiuneaHead = new SectiuneSnake();
                     sectiuneaHead.Fundal = '*';
-                    sectiuneaHead.Head = true;
+                    sectiuneaHead.NumarulSectiunei = numarulSectiunei;
                     sectiuneaHead.Rand = 5;
                     sectiuneaHead.Coloana = 5;
 
@@ -74,12 +75,14 @@ namespace Snake.App.Business
                 {
                     var sectiunea = new SectiuneSnake();
                     sectiunea.Fundal = '&';
-                    sectiunea.Head = false;
+                    sectiunea.NumarulSectiunei = numarulSectiunei;
                     sectiunea.Rand = 5;
                     sectiunea.Coloana = i;
 
                     SectiunilePentruSnake.Add(sectiunea);
                 }
+
+                numarulSectiunei++;
             }
         }
 

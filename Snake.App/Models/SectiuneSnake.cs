@@ -5,6 +5,6 @@
         public char Fundal { get; set; }
         public int Rand { get; set; }
         public int Coloana { get; set; }
-        public bool Head { get; set; }
+        public int NumarulSectiunei { get; set; }
     }
 }

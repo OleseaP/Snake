@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{7C765CFE-6422-4AA0-94DC-4AC033F3207C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Snake.App/Business/Sectiune.cs">
+    <Files>
+      <File FileName="Snake.App/Start.cs" Line="44" Column="40" />
+      <File FileName="Snake.App/Models/SectiuneSnake.cs" Line="8" Column="36" />
+      <File FileName="Snake.App/Business/Sectiune.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Snake" expanded="True">
+            <Node name="Snake.App" expanded="True">
+              <Node name="Business" expanded="True">
+                <Node name="Sectiune.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Snake.App PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/victor/Snake/Snake.App/Start.cs" relfile="Snake.App/Start.cs" line="21" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

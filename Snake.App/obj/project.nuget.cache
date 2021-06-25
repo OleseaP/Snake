@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F9tBWCC89DI7kI5WHLxMyhUM5f6JORZodmwHjnuOvOCKQyICiqzsOZhfcwFhD5Vk+2hANl+DSC9+ZLXDXHIbEw==",
+  "dgSpecHash": "9R6/78TSs+/4nVcPA/0m8lfsdo+qobXjK5A0h/idFQbQROlySxWShhHiN5KxTBO7wwafvgi3U8hvwBGiz0a/zA==",
   "success": true,
-  "projectFilePath": "C:\\_Olesea\\Proiecte\\Snake\\Snake\\Snake.App\\Snake.App.csproj",
+  "projectFilePath": "/Users/victor/Snake/Snake.App/Snake.App.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
