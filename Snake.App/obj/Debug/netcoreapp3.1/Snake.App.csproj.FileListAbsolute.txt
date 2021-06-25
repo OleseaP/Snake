@@ -1,0 +1,13 @@
+C:\_Olesea\Proiecte\Snake\Snake\Snake.App\bin\Debug\netcoreapp3.1\Snake.App.exe
+C:\_Olesea\Proiecte\Snake\Snake\Snake.App\bin\Debug\netcoreapp3.1\Snake.App.deps.json
+C:\_Olesea\Proiecte\Snake\Snake\Snake.App\bin\Debug\netcoreapp3.1\Snake.App.runtimeconfig.json
+C:\_Olesea\Proiecte\Snake\Snake\Snake.App\bin\Debug\netcoreapp3.1\Snake.App.runtimeconfig.dev.json
+C:\_Olesea\Proiecte\Snake\Snake\Snake.App\bin\Debug\netcoreapp3.1\Snake.App.dll
+C:\_Olesea\Proiecte\Snake\Snake\Snake.App\bin\Debug\netcoreapp3.1\Snake.App.pdb
+C:\_Olesea\Proiecte\Snake\Snake\Snake.App\obj\Debug\netcoreapp3.1\Snake.App.csprojAssemblyReference.cache
+C:\_Olesea\Proiecte\Snake\Snake\Snake.App\obj\Debug\netcoreapp3.1\Snake.App.AssemblyInfoInputs.cache
+C:\_Olesea\Proiecte\Snake\Snake\Snake.App\obj\Debug\netcoreapp3.1\Snake.App.AssemblyInfo.cs
+C:\_Olesea\Proiecte\Snake\Snake\Snake.App\obj\Debug\netcoreapp3.1\Snake.App.csproj.CoreCompileInputs.cache
+C:\_Olesea\Proiecte\Snake\Snake\Snake.App\obj\Debug\netcoreapp3.1\Snake.App.dll
+C:\_Olesea\Proiecte\Snake\Snake\Snake.App\obj\Debug\netcoreapp3.1\Snake.App.pdb
+C:\_Olesea\Proiecte\Snake\Snake\Snake.App\obj\Debug\netcoreapp3.1\Snake.App.genruntimeconfig.cache
