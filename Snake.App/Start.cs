@@ -8,14 +8,15 @@ namespace Snake.App
     {
         static void Main()
         {
+            var sectiune = new Sectiune();
+            sectiune.AdaugaSectiunileDeStartPentruPerimetru();
+            sectiune.AdaugaSectiunileDeStartPentruSnake();
+            sectiune.PozitiaDeStartPentruApple();
+
+            var harta = new Harta();
+
             while (true)
             {
-                var sectiune = new Sectiune();
-                sectiune.AdaugaSectiunileDeStartPentruPerimetru();
-                sectiune.AdaugaSectiunileDeStartPentruSnake();
-                sectiune.PozitiaDeStartPentruApple();
-
-                var harta = new Harta();
                 harta.CreeazaHarta(sectiune.SectiunilePerimetrului, sectiune.SectiunilePentruSnake, sectiune.Apple);
 
                 var directia = InteractiuneCuUtilizatorul.CitesteDirectiaDeMiscareIntrodusaDeUtilizator();
@@ -154,6 +155,28 @@ namespace Snake.App
                         sarpeleAMancatMarul = true;
                     }
                 }
+                #endregion
+
+                #region Misca sarpele o pozitie inainte
+
+                if (directia == ConsoleKey.UpArrow)
+                {
+                    for (int i = 0; i < sectiune.SectiunilePentruSnake.Count; i++)
+                    {
+                        var sectiunea = sectiune.SectiunilePentruSnake.FirstOrDefault(x => x.NumarulSectiunei == i);
+                        if (i == 0) // Sectiunea HEAD
+                        {
+                            sectiunea.Rand = sectiunea.Rand - 1;
+
+                            continue;
+                        }
+
+                        sectiunea.Rand = sectiunea.Rand - 1;
+                    }
+
+
+                }
+              
                 #endregion
             }
         }
