@@ -68,6 +68,8 @@ namespace Snake.App.Business
                     sectiuneaHead.NumarulSectiunei = numarulSectiunei;
                     sectiuneaHead.Rand = 5;
                     sectiuneaHead.Coloana = 5;
+                    sectiuneaHead.PozitiaAnterioara[0] = 5;
+                    sectiuneaHead.PozitiaAnterioara[1] = 5;
 
                     SectiunilePentruSnake.Add(sectiuneaHead);
                 }
@@ -78,6 +80,8 @@ namespace Snake.App.Business
                     sectiunea.NumarulSectiunei = numarulSectiunei;
                     sectiunea.Rand = 5;
                     sectiunea.Coloana = i;
+                    sectiunea.PozitiaAnterioara[0] = 5;
+                    sectiunea.PozitiaAnterioara[1] = i;
 
                     SectiunilePentruSnake.Add(sectiunea);
                 }

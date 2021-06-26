@@ -157,26 +157,49 @@ namespace Snake.App
                 }
                 #endregion
 
-                #region Misca sarpele o pozitie inainte
+                #region Misca sarpele cu o pozitie inainte
 
-                if (directia == ConsoleKey.UpArrow)
+                for (int i = 0; i < sectiune.SectiunilePentruSnake.Count; i++)
                 {
-                    for (int i = 0; i < sectiune.SectiunilePentruSnake.Count; i++)
+                    var sectiunea = sectiune.SectiunilePentruSnake.FirstOrDefault(x => x.NumarulSectiunei == i);
+
+                    if (i == 0) // Sectiunea HEAD
                     {
-                        var sectiunea = sectiune.SectiunilePentruSnake.FirstOrDefault(x => x.NumarulSectiunei == i);
-                        if (i == 0) // Sectiunea HEAD
+                        if (directia == ConsoleKey.UpArrow)
                         {
                             sectiunea.Rand = sectiunea.Rand - 1;
-
-                            continue;
                         }
-
-                        sectiunea.Rand = sectiunea.Rand - 1;
+                        if (directia == ConsoleKey.DownArrow)
+                        {
+                            sectiunea.Rand = sectiunea.Rand + 1;
+                        }
+                        if (directia == ConsoleKey.LeftArrow)
+                        {
+                            sectiunea.Coloana = sectiunea.Coloana - 1;
+                        }
+                        if (directia == ConsoleKey.RightArrow)
+                        {
+                            sectiunea.Coloana = sectiunea.Coloana + 1;
+                        }
                     }
-
-
+                    else
+                    {
+                        var sectiuneaDinFata = sectiune.SectiunilePentruSnake.FirstOrDefault(x => x.NumarulSectiunei == (i - 1));
+                        sectiunea.Rand = sectiuneaDinFata.PozitiaAnterioara[0];
+                        sectiunea.Coloana = sectiuneaDinFata.PozitiaAnterioara[1];
+                    }
                 }
-              
+
+                #region Reseteaza proprietatea PozitiaAnterioara
+                for (int i = 0; i < sectiune.SectiunilePentruSnake.Count; i++)
+                {
+                    var sectiunea = sectiune.SectiunilePentruSnake.FirstOrDefault(x => x.NumarulSectiunei == i);
+
+                    sectiunea.PozitiaAnterioara[0] = sectiunea.Rand;
+                    sectiunea.PozitiaAnterioara[1] = sectiunea.Coloana;
+                }
+                #endregion
+
                 #endregion
             }
         }
