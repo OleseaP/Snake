@@ -35,7 +35,7 @@ namespace Snake.App.Business
                         continue;
                     }
 
-                    Console.Write(".");
+                    Console.Write(" ");
 
                 }
                 Console.WriteLine();

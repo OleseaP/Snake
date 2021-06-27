@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{7C765CFE-6422-4AA0-94DC-4AC033F3207C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Snake.App/Business/Harta.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Snake.App/Business/InteractiuneCuUtilizatorul.cs">
     <Files>
-      <File FileName="Snake.App/Start.cs" Line="20" Column="29" />
-      <File FileName="Snake.App/Models/SectiuneSnake.cs" Line="9" Column="67" />
-      <File FileName="Snake.App/Business/Sectiune.cs" Line="83" Column="56" />
-      <File FileName="Snake.App/Business/Harta.cs" Line="1" Column="1" />
+      <File FileName="Snake.App/Start.cs" Line="26" Column="73" />
+      <File FileName="Snake.App/Business/Sectiune.cs" Line="59" Column="3" />
+      <File FileName="Snake.App/Business/Harta.cs" Line="12" Column="14" />
+      <File FileName="Snake.App/Business/InteractiuneCuUtilizatorul.cs" Line="11" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +12,7 @@
           <Node name="Snake" expanded="True">
             <Node name="Snake.App" expanded="True">
               <Node name="Business" expanded="True">
-                <Node name="Harta.cs" selected="True" />
+                <Node name="InteractiuneCuUtilizatorul.cs" selected="True" />
               </Node>
               <Node name="Models" expanded="True" />
             </Node>
